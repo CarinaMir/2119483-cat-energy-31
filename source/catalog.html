@@ -22,8 +22,8 @@
         <img class="logo__image" src="images/common/logoMobile@1x.png" srcset="images/common/logoMobile@2x.png 2x" width="33" height="38" alt="Логотип Cat Energy">
       </picture>
     </a>
-    <a class="title" href="#">
-      <img class="title__image" src="images/common/title.svg" width="101" height="18" alt="Наименование компании">
+    <a class="header__title" href="#">
+      <img class="company-title" src="images/common/title.svg" width="101" height="18" alt="Наименование компании">
     </a>
     <nav class="navigation">
       <button class="navigation__toggle" type="button">
@@ -43,7 +43,7 @@
   <main class="main-container">
     <section class="products">
       <div class="products__content">
-        <h1>Каталог продукции</h1>
+        <h1 class="maintitle">Каталог продукции</h1>
         <ul class="products__list product">
           <li class="product__item card">
             <picture>
@@ -178,16 +178,17 @@
             </div>
             <button class="card__order button" type="button">Заказать</button>
           </li>
+          <li class="product__item card">
+            <picture>
+              <source type="image/png" media="(min-width: 768px)" srcset="images/catalog/plusTablet@1x.png 1x, images/catalog/riceSmallTablet@2x.png 2x" width="60" height="60">
+              <img class="card__image" src="images/catalog/plusMobile@1x.png" srcset="images/catalog/plusMobile@2x.png 2x" width="30" height="30" alt="Показать больше товаров">
+            </picture>
+            <div class="card__title">Показать еще 100500 товаров</div>
+            <div class="card__description">На самом деле вкусов гораздо больше!</div>
+            <button class="card__show button" type="button">Показать все</button>
+          </li>
         </ul>
-        <div class="more-products">
-          <picture>
-            <source type="image/png" media="(min-width: 768px)" srcset="images/catalog/plusTablet@1x.png 1x, images/catalog/riceSmallTablet@2x.png 2x" width="60" height="60">
-            <img class="more-products__image" src="images/catalog/plusMobile@1x.png" srcset="images/catalog/plusMobile@2x.png 2x" width="30" height="30" alt="Показать больше товаров">
-          </picture>
-          <div class="more-products__title">Показать еще 100500 товаров</div>
-          <div class="more-products__description">На самом деле вкусов гораздо больше!</div>
-          <button class="more-products__show button" type="button">Показать все</button>
-        </div>
+
       </div>
     </section>
     <section class="extra-products">
@@ -234,6 +235,7 @@
       </div>
     </section>
     <section class="news">
+      <p class="news__gift">Закажите все и получите чехол для кота в подарок!</p>
       <h2 class="subtitle">Акции и новинки</h2>
       <form action="https://echo.htmlacademy.ru" method="post">
         <label class="news__description" for="email">Подпишитесь на наши новости и не пропустите ни одного предложения!</label>
@@ -262,7 +264,7 @@
     <section class="footer__content">
       <h2 class="subtitle visually-hidden">Соц.сети</h2>
       <a class="company" href="#">
-        <img class="company__image" src="images/common/title.svg" width="101" height="18" alt="Наименование компании">
+        <img class="company-title" src="images/common/title.svg" width="101" height="18" alt="Наименование компании">
       </a>
       <div class="socials">
         <ul class="socials__list social">

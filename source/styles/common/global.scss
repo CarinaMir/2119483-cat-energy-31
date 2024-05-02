@@ -4,3 +4,44 @@
 ::after {
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.button-reset {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  appearance: none;
+  outline: none;
+}
+
+.link-reset {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

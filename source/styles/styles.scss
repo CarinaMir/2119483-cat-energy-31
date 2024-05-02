@@ -1,5 +1,6 @@
 /* GLOBAL */
 @import "./common/variables.scss";
+@import "./common/mixins.scss";
 @import "./common/fonts.scss";
 @import "./common/global.scss";
 @import "./common/visually-hidden.scss";
@@ -7,13 +8,14 @@
 /* header */
 @import "./blocks/page.scss";
 @import "./blocks/header.scss";
+@import "./blocks/company-title.scss";
 @import "./blocks/logo.scss";
-@import "./blocks/title.scss";
 @import "./blocks/navigation.scss";
 @import "./blocks/nav-list.scss";
 /* indexPage */
 @import "./blocks/main-container.scss";
 @import "./blocks/main-product.scss";
+@import "./blocks/maintitle.scss";
 @import "./blocks/select-program.scss";
 @import "./blocks/button.scss";
 @import "./blocks/programs.scss";
