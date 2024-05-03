@@ -3,7 +3,7 @@
 }
 
 .contact__content-offer {
-  font-family: "Oswald", sans-serif;
+  font-family: $secondary-font;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -12,7 +12,7 @@
 }
 
 .contact__content-address {
-  font-family: "Lato", sans-serif;
+  font-family: $primary-font;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;

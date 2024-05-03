@@ -3,7 +3,7 @@
 }
 
 .example__description {
-  font-family: "Lato", sans-serif;
+  font-family: $primary-font;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
@@ -11,21 +11,21 @@
 }
 
 .example__item > dt {
-  font-family: "Oswald", sans-serif;
+  font-family: $secondary-font;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
 }
 
 .example__item > dd {
-  font-family: "Lato", sans-serif;
+  font-family: $primary-font;
   font-size: 12px;
   font-weight: 400;
   line-height: 12px;
 }
 
 .example__spending {
-  font-family: "Oswald", sans-serif;
+  font-family: $secondary-font;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
