@@ -1,14 +1,11 @@
 /* GLOBAL */
 @import "./common/variables.scss";
-@import "./common/mixins.scss";
 @import "./common/fonts.scss";
 @import "./common/global.scss";
-@import "./common/visually-hidden.scss";
 /* BLOCKS */
 /* header */
 @import "./blocks/page.scss";
 @import "./blocks/header.scss";
-@import "./blocks/company-title.scss";
 @import "./blocks/logo.scss";
 @import "./blocks/navigation.scss";
 @import "./blocks/nav-list.scss";
@@ -16,28 +13,18 @@
 @import "./blocks/main-container.scss";
 @import "./blocks/main-product.scss";
 @import "./blocks/maintitle.scss";
-@import "./blocks/select-program.scss";
 @import "./blocks/button.scss";
-@import "./blocks/programs.scss";
 @import "./blocks/subtitle.scss";
 @import "./blocks/program.scss";
-@import "./blocks/selected-program.scss";
-@import "./blocks/rules.scss";
 @import "./blocks/rule.scss";
 @import "./blocks/example.scss";
-@import "./blocks/contacts.scss";
 @import "./blocks/contact.scss";
 /* catalog */
-@import "./blocks/products.scss";
 @import "./blocks/product.scss";
 @import "./blocks/card.scss";
-@import "./blocks/more-products.scss";
-@import "./blocks/extra-products.scss";
 @import "./blocks/extra-product.scss";
 @import "./blocks/news.scss";
 /* footer */
 @import "./blocks/footer.scss";
-@import "./blocks/company.scss";
-@import "./blocks/socials.scss";
 @import "./blocks/social.scss";
-@import "./blocks/academy.scss";
+@import "./blocks/copyright.scss";
