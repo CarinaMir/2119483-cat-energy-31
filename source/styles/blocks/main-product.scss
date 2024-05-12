@@ -6,7 +6,10 @@
 }
 
 .main-product__content {
-  background-color: $bg-base-green;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-product__title {
@@ -17,8 +20,7 @@
 .main-product__slogan {
   font-size: 14px;
   line-height: 14px;
-}
-
-.main-product__select-program {
-  color: $base-color-white;
+  padding-top: 25px;
+  text-transform: uppercase;
+  padding-bottom: 29px;
 }

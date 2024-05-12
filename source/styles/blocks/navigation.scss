@@ -1,16 +1,14 @@
 .navigation {
-  $bg-color:#ffffff;
+  position: absolute;
+  top: 65px;
+  width: 100%;
+  left: 0;
+  background-color: $base-color-white;
+  //display: flex;
+  flex-flow: column nowrap;
+  display: none;
 }
 
-.navigation__toggle {
-  background-color: #ffffff;
-  background-image: url("/icons/stack.svg#burger_menu_closed");
-  width: 24px;
-  height: 24px;
-  background-repeat: no-repeat;
-  border: 0;
-}
-
-.navigation__toggle--closed {
-  background-image: url("/icons/stack.svg#burger_menu_opened");
+.navigation__content--popup {
+  display: none;
 }

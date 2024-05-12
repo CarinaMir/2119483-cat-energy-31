@@ -6,7 +6,10 @@
   color: $base-color-black;
   text-transform: uppercase;
   opacity: 1;
-  padding-bottom: 24px;
+  border-top: 2px solid $base-color-lightgrey;
+  height: 66px;
+  text-align: center;
+  align-content: center;
 }
 
 .nav-list__item:hover,
