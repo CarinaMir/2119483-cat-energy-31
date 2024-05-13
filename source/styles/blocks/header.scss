@@ -18,3 +18,17 @@
 .header__toggle--closed {
   background-image: url("/icons/stack.svg#burger_menu_opened");
 }
+
+.header__logo-title {
+  $bg-color:#ffffff;
+  opacity: 1;
+}
+
+.header__logo-title:hover,
+.header__logo-title:focus {
+  opacity: 0.8;
+}
+
+.header__logo-title:active {
+  opacity: 0.6;
+}

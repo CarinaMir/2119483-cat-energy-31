@@ -1,17 +1,13 @@
-.logo,
-.logo__title {
+.logo {
   $bg-color:#ffffff;
   opacity: 1;
 }
 
 .logo:hover,
-.logo:focus,
-.logo__title:hover,
-.logo__title:focus {
+.logo:focus {
   opacity: 0.8;
 }
 
-.logo:active,
-.logo__title:active {
+.logo:active {
   opacity: 0.6;
 }
