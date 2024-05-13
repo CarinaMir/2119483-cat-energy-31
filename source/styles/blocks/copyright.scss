@@ -1,7 +1,8 @@
 .copyright {
-  $bg-color:#ffffff;
   display: flex;
-  gap: 140px;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .copyright__link {
