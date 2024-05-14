@@ -43,10 +43,17 @@
 }
 
 .card__content {
-  display: flex;
-  place-content: center space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   padding-bottom: 17px;
+
+  @media (min-width: $tablet-width) {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    padding-bottom: 17px;
+    display: grid;
+  }
 }
 
 .card__image--more-products {

@@ -9,6 +9,7 @@ body {
   font-family: "Lato", "Oswald", "Arial", sans-serif;
   background-color: $base-color-white;
   margin: 0;
+  min-width: 320px;
 }
 
 ul {
@@ -21,7 +22,6 @@ p {
   margin: 0;
   padding: 0;
 }
-
 
 a,
 a:hover,

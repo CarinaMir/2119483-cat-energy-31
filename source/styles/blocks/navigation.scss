@@ -1,33 +1,28 @@
-@media (max-width: $phone-width-max) {
-  .navigation {
-    position: absolute;
-    top: 65px;
-    width: 100%;
-    left: 0;
-    background-color: $base-color-white;
-    display: flex;
-    flex-flow: column nowrap;
-    //display: none; */
-  }
+.navigation {
+  position: absolute;
+  top: 65px;
+  width: 100%;
+  left: 0;
+  background-color: $base-color-white;
+  display: flex;
+  flex-flow: column nowrap;
+  //display: none; */
 
-  .navigation__content--popup {
-    display: none;
+  @media (min-width: $tablet-width) {
+    flex: 1;
+    position: inherit;
   }
 }
 
-@media (min-width: $tablet-width) {
-  .navigation {
-    flex: 1;
-  }
+.navigation__content--popup {
+  display: none;
+}
 
-  .navigation__list {
+.navigation__list {
+  @media (min-width: $tablet-width) {
     flex-direction: row;
     gap: 20px;
     display: flex;
     justify-content: flex-end;
-
-    .header__toggle {
-      display: none;
-    }
   }
 }

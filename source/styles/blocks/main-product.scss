@@ -3,18 +3,43 @@
   font-family: $secondary-font;
   color: $base-color-white;
   font-weight: 400;
+
+  @media (min-width: $tablet-width) {
+    position: relative;
+    padding-bottom: 526px;
+    background-color: $base-color-white;
+    color: $base-color-black;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 1220px;
+    padding-bottom: 0;
+    margin: 0 auto;
+  }
 }
 
 .main-product__content {
-  background-color: $base-color-lightgrey;
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-width: 320px;
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: 414px 552px;
+    display: grid;
+    margin: 0 auto;
+    max-width: 886px;
+  }
 }
 
 .main-product__title {
   font-size: 36px;
   line-height: 36px;
+  margin: 0;
+  padding-top: 27px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-align: center;
 }
 
 .main-product__slogan {
@@ -23,4 +48,18 @@
   padding-top: 25px;
   text-transform: uppercase;
   padding-bottom: 29px;
+}
+
+.main-product__picture {
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: relative;
+    grid-row: 1 / 4;
+    grid-column: 2;
+  }
 }

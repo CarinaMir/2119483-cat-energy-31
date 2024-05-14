@@ -1,10 +1,23 @@
 .rule__content {
-  padding: 20px 20px 29px;
+  padding-bottom: 29px;
 }
 
 .rule__list {
   padding-top: 40px;
+
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 37px;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 94px;
+    display: grid;
+  }
 }
+
 
 .rule__description {
   font-family: $primary-font;

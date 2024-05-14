@@ -4,10 +4,31 @@
   padding-right: 20px;
 }
 
-.product_list {
-  display: flex;
-  flex-direction: column;
+.product__main-title {
+  margin: 0;
+  padding-top: 27px;
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
+
+
+.product__list {
+  display: grid;
+  grid-template-columns: 1fr;
   align-items: center;
+
+  @media (min-width: $tablet-width) {
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 80px;
+  }
 }
 
 .product__item {

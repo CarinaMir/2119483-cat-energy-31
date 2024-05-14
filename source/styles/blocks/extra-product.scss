@@ -1,8 +1,3 @@
-.extra-product {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 .extra-product__title {
   font-family: $secondary-font;
   font-size: 16px;
@@ -13,6 +8,14 @@
 .extra-product__content {
   border-bottom: 2px solid $line-base-grey;
   margin-bottom: 35px;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+  }
 }
 
 .extra-product__description {
@@ -30,9 +33,13 @@
 .extra-product__item {
   border-top: 2px solid $line-base-grey;
   padding-top: 13px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   padding-bottom: 20px;
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .extra-product__subtitle {
@@ -68,7 +75,6 @@
 @media (min-width: 768px) {
   .extra-product__gift {
     background-image: url("/images/catalog/giftTablet@2x.png");
-    width: 707px;
     height: 200px;
   }
 }
@@ -76,7 +82,6 @@
 @media (min-width: 1440px) {
   .extra-product__gift {
     background-image: url("/images/catalog/giftDesktop@2x.png");
-    width: 245px;
     height: 288px;
   }
 }

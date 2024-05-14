@@ -3,6 +3,11 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 25px;
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .example__description {

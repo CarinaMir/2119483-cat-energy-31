@@ -41,3 +41,12 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+.news__info {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @media (min-width: $tablet-width) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
