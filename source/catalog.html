@@ -14,10 +14,10 @@
 </head>
 
 <body class="page__body">
-  <header class="header">
+  <header class="header wrapper-content">
     <a class="logo" href="#index.html">
       <picture>
-        <source type="image/svg+xml" media="(min-width: 1440px)" srcset="/icons/stack.svg#logoDesktop" width="70" height="59">
+        <source type="image/svg+xml" media="(min-width: $desktop-width)" srcset="/icons/stack.svg#logoDesktop" width="70" height="59">
         <source type="image/svg+xml" media="(min-width: 768px)" srcset="/icons/stack.svg#logoTablet" width="60" height="50">
         <img class="logo__image" src="/icons/stack.svg#logoMobile" width="33" height="38" alt="Логотип Cat Energy">
       </picture>
@@ -42,7 +42,7 @@
     <section class="product">
       <div class="product__content">
         <h1 class="product__main-title">Каталог продукции</h1>
-        <ul class="product__list">
+        <ul class="product__list wrapper-content">
           <li class="product__item card">
             <div class="card__content">
               <picture>
@@ -280,7 +280,7 @@
     </section>
   </main>
   <footer class="footer">
-    <div class="footer__content">
+    <div class="footer__content wrapper-content">
       <h2 class="subtitle visually-hidden">Соц.сети</h2>
       <a class="logo footer__content-item " href="#index.html">
         <img class="logo__title" src="/images/common/title.svg" width="101" height="18" alt="Cat Energy">
