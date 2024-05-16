@@ -1,4 +1,4 @@
-const navToggle = document.querySelector('.header__toggle');
+/*const navToggle = document.querySelector('.header__toggle');
 const navBottonMenu = document.querySelector('.header__toggle--closed');
 const navMain = document.querySelector('.navigation');
 
@@ -11,6 +11,7 @@ navToggle.addEventListener('click', () => {
     navMain.style.display = 'flex';
   }
 });
+*/
 
 
 /*function imageComparison(sliderSelector) {
