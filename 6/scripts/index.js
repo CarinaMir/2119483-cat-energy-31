@@ -1,0 +1,1 @@
+var t=document.querySelector(".header__toggle"),e=document.querySelector(".header__toggle--closed"),o=document.querySelector(".navigation");t.addEventListener("click",()=>{e.classList.contains("header__toggle--closed")?(e.classList.remove("header__toggle--closed"),o.style.display="none"):(e.classList.add("header__toggle--closed"),o.style.display="flex")});
