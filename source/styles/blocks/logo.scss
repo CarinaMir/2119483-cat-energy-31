@@ -1,6 +1,10 @@
 .logo {
   $bg-color:#ffffff;
   opacity: 1;
+
+  @media (min-width: $tablet-width) {
+    padding-right: 13px;
+  }
 }
 
 .logo:hover,

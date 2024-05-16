@@ -4,14 +4,16 @@
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
-    max-width: 708px;
+    min-width: 708px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   @media (min-width: $desktop-width) {
-    max-width: 1220px;
+    min-width: 1220px;
     margin: 0 auto;
-    padding: 0 110px;
+    padding-left: 110px;
+    padding-right: 100px;
   }
 }

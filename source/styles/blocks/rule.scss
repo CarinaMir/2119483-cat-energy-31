@@ -1,5 +1,9 @@
 .rule {
   padding-top: 20px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 45px;
+  }
 }
 
 .rule__content {
@@ -12,7 +16,9 @@
   @media (min-width: $tablet-width) {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 37px;
+    gap: 153px;
+    padding-right: 16px;
+    padding-top: 32px;
   }
 
   @media (min-width: $desktop-width) {
@@ -22,13 +28,18 @@
   }
 }
 
-
 .rule__description {
   font-family: $primary-font;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
   color: $base-color-grey;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 26px;
+  }
 }
 
 .rule__item {
@@ -36,6 +47,12 @@
   padding-bottom: 20px;
   gap: 20px;
   align-items: center;
+
+  @media (min-width: $tablet-width) {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 31px;
+  }
 }
 
 .rule__icon::before {

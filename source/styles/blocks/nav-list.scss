@@ -23,6 +23,11 @@
 
 .nav-list__item-link {
   color: $base-color-black;
+
+  @media (min-width: $tablet-width) {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 
 .nav-list__item--active {
