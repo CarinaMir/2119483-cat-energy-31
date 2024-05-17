@@ -3,13 +3,19 @@
   padding: 25px 20px 40px;
 
   @media (min-width: $tablet-width) {
-    padding-top: 47px;
+    padding: 47px 30px 0;
     background-color: $base-color-white;
   }
 
   @media (min-width: $desktop-width) {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+.example__content-info {
+  @media (min-width: $tablet-width) {
+    padding-bottom: 99px;
   }
 }
 
@@ -43,6 +49,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 55px;
+  }
 }
 
 .example__description {
@@ -133,6 +143,10 @@
 
 .example__slider {
   position: relative;
+
+  @media (min-width: $tablet-width) {
+    background-color: grey;
+  }
 }
 
 .example__slider-button {

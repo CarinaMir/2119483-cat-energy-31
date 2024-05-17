@@ -7,6 +7,13 @@
   }
 }
 
+.logo__title {
+  @media (min-width: $tablet-width) {
+    width: 129px;
+    height: 25px;
+  }
+}
+
 .logo:hover,
 .logo:focus {
   opacity: 0.8;
