@@ -5,8 +5,13 @@
   align-items: center;
   padding: 13px 21px 14px 20px;
 
-  @media (min-width: 320px) and (max-width: 767px) {
+  @media (min-width: $tablet-width) and (max-width: ($desktop-width - 1)) {
     position: relative;
+    padding: 25px 34px 0 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 55px 110px 0;
   }
 }
 
@@ -17,6 +22,10 @@
   height: 24px;
   background-repeat: no-repeat;
   border: 0;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 }
 
 .header__toggle--closed {
@@ -35,14 +44,4 @@
 
 .header__logo-title:active {
   opacity: 0.6;
-}
-
-@media (min-width: $tablet-width) {
-  .header {
-    padding: 25px 34px 0 30px;
-  }
-
-  .header__toggle {
-    display: none;
-  }
 }

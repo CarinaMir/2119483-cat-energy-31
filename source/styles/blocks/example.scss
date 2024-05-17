@@ -71,7 +71,7 @@
 }
 
 .example__item {
-  border: 2px solid #cdcdcd;
+  border: 2px solid $line-base-grey;
   position: relative;
   padding-top: 20px;
   padding-bottom: 17px;
@@ -145,7 +145,7 @@
   position: relative;
 
   @media (min-width: $tablet-width) {
-    background-color: grey;
+    background-color: $line-base-grey;
   }
 }
 
