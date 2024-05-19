@@ -4,7 +4,7 @@
   width: 100%;
   left: 0;
   background-color: $base-color-white;
-  display: flex;
+  display: none;
   flex-flow: column nowrap;
 
   @media (min-width: $tablet-width) {
@@ -13,6 +13,15 @@
     display: block;
     top: 0;
   }
+
+  @media (min-width: $desktop-width) {
+    z-index: 1;
+    background-color: transparent;
+  }
+}
+
+.navigation--active {
+  display: flex;
 }
 
 .navigation__content--popup {

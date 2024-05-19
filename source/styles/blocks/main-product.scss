@@ -15,6 +15,7 @@
     max-width: 1220px;
     padding-bottom: 0;
     margin: 0 auto;
+    position: static;
   }
 }
 
@@ -36,6 +37,21 @@
   }
 }
 
+.main-product__content::before {
+  @media (min-width: $desktop-width) {
+    content: "";
+    position: absolute;
+    background-image: image-set(url("/images/index/catBgDesktop@1x.jpg") 1x, url("/images/index/catBgDesktop@2x.jpg") 2x);
+    background-repeat: no-repeat;
+    background-color: #63a63c;
+    top: 0;
+    left: 50%;
+    right: 0;
+    height: 694px;
+    background-position: left top;
+  }
+}
+
 .main-product__title {
   font-size: 36px;
   line-height: 36px;
@@ -52,6 +68,10 @@
     padding-left: 120px;
     padding-right: 234px;
     text-align: left;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
   }
 }
 

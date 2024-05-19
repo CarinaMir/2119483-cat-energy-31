@@ -3,7 +3,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 13px 21px 14px 20px;
+  padding-top: 13px;
+  padding-bottom: 14px;
 
   @media (min-width: $tablet-width) and (max-width: ($desktop-width - 1)) {
     position: relative;

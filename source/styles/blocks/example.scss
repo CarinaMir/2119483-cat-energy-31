@@ -1,9 +1,10 @@
 .example__content {
   background-color: $bg-base-grey;
-  padding: 25px 20px 40px;
+  padding-top: 25px;
+  padding-bottom: 40px;
 
   @media (min-width: $tablet-width) {
-    padding: 47px 30px 0;
+    padding: 47px 0 0;
     background-color: $base-color-white;
   }
 
@@ -46,12 +47,11 @@
 }
 
 .example__info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
   @media (min-width: $tablet-width) {
     padding-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
@@ -62,6 +62,7 @@
   line-height: 18px;
   color: $base-color-grey;
   padding-top: 40px;
+  overflow: hidden;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
@@ -143,6 +144,7 @@
 
 .example__slider {
   position: relative;
+  text-align: center;
 
   @media (min-width: $tablet-width) {
     background-color: $line-base-grey;
@@ -161,7 +163,7 @@
   display: block;
   position: absolute;
   top: 0;
-  left: -2px;
+  left: 50%;
 }
 
 .example__slider-after {

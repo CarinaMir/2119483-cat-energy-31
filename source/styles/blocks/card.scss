@@ -21,6 +21,7 @@
   line-height: 16px;
   padding-top: 14px;
   padding-bottom: 21px;
+  overflow: hidden;
 }
 
 .card__description {
@@ -32,6 +33,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 14px;
+  overflow: hidden;
 }
 
 .card__description-category {
