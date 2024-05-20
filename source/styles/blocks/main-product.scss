@@ -1,5 +1,5 @@
 .main-product {
-  background-color: $bg-base-green;
+  //background-color: $bg-base-green;
   font-family: $secondary-font;
   color: $base-color-white;
   font-weight: 400;
@@ -24,9 +24,11 @@
   flex-direction: column;
   align-items: center;
   min-width: 320px;
+  position: relative;
 
   @media (min-width: $tablet-width) {
     align-items: flex-start;
+    position: static;
   }
 
   @media (min-width: $desktop-width) {
@@ -34,10 +36,23 @@
     display: grid;
     margin: 0 auto;
     max-width: 1220px;
+    position: static;
   }
 }
 
 .main-product__content::before {
+  @media (max-width: ($tablet-width - 1)) {
+    content: "";
+    position: absolute;
+    background-image: image-set(url("/images/index/catBgMobile@1x.png") 1x, url("/images/index/catBgMobile@2x.png") 2x);
+    background-repeat: no-repeat;
+    background-color: #63a63c;
+    background-position: center;
+    width: 100%;
+    height: 302px;
+    z-index: -1;
+  }
+
   @media (min-width: $desktop-width) {
     content: "";
     position: absolute;
