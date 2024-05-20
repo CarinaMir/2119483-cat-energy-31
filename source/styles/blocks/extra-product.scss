@@ -59,13 +59,13 @@
 
 .extra-product__subtitle::before {
   content: " ";
-  background: red;
+  background: #68b738;
   width: 100vw;
   height: 2px;
   position: absolute;
   top: 50%;
   right: 0;
-  box-shadow: 100vw 0 #0000ff;
+  box-shadow: 100vw 0 #68b738;
   z-index: -1;
 }
 
