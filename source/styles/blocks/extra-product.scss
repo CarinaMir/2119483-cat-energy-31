@@ -51,6 +51,22 @@
   padding-bottom: 36px;
   margin: 0;
   padding-top: 25px;
+  position: relative;
+  width: fit-content;
+  box-shadow: -30px 0 0 0 $base-color-white, 30px 0 0 0 $base-color-white;
+  background: $base-color-white;
+}
+
+.extra-product__subtitle::before {
+  content: " ";
+  background: red;
+  width: 100vw;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  box-shadow: 100vw 0 #0000ff;
+  z-index: -1;
 }
 
 .extra-product__gift {

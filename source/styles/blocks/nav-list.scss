@@ -10,6 +10,10 @@
   height: 66px;
   text-align: center;
   align-content: center;
+
+  @media (min-width: $desktop-width) {
+    color: $base-color-white;
+  }
 }
 
 .nav-list__item:hover,
@@ -32,6 +36,12 @@
   @media (min-width: $desktop-width) {
     font-size: 20px;
     line-height: 20px;
+  }
+}
+
+.nav-list__item-link--light {
+  @media (min-width: $desktop-width) {
+    color: white;
   }
 }
 

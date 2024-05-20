@@ -1,5 +1,4 @@
 .main-product {
-  //background-color: $bg-base-green;
   font-family: $secondary-font;
   color: $base-color-white;
   font-weight: 400;
@@ -16,6 +15,7 @@
     padding-bottom: 0;
     margin: 0 auto;
     position: static;
+    height: 580px;
   }
 }
 
@@ -26,13 +26,14 @@
   min-width: 320px;
   position: relative;
 
+
   @media (min-width: $tablet-width) {
     align-items: flex-start;
     position: static;
   }
 
   @media (min-width: $desktop-width) {
-    grid-template-columns: 414px 552px;
+    grid-template-columns: 418px 552px;
     display: grid;
     margin: 0 auto;
     max-width: 1220px;
@@ -86,7 +87,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 110px;
   }
 }
 
@@ -101,6 +104,10 @@
     padding: 40px 365px 50px 120px;
     font-size: 20px;
     line-height: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
   }
 }
 
@@ -145,5 +152,9 @@
     font-family: $secondary-font;
     font-size: 20px;
     line-height: 26px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
   }
 }
