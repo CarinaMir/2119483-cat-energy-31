@@ -1,3 +1,10 @@
+.contact__list {
+  @media (min-width: $desktop-width) {
+    position: relative;
+  }
+}
+
+
 .contact__list iframe {
   border: 0;
   display: block;
@@ -43,7 +50,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $tablet-width) and (max-width: ($desktop-width - 1)) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 60px 70px;
@@ -51,7 +58,12 @@
   }
 
   @media (min-width: $desktop-width) {
-    display: none;
+    position: absolute;
+    background-color: $base-color-white;
+    left: 110px;
+    top: 95px;
+    width: 26%;
+    padding: 60px 80px;
   }
 }
 
@@ -65,4 +77,33 @@
   @media (min-width: $tablet-width) {
     padding: 0;
   }
+}
+
+.contact__map {
+  padding-top: 26px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
+}
+
+.contact__map iframe {
+  width: 100%;
+  height: 362px;
+
+  @media (min-width: $tablet-width) {
+    height: 400px;
+  }
+}
+
+.contact__map img {
+  display: none;
+}
+
+.contact__map--no-js img {
+  display: block;
+}
+
+.contact__map--no-js iframe {
+  display: none;
 }

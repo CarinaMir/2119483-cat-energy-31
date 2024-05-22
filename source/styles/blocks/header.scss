@@ -54,3 +54,7 @@
 .header__logo-title:active {
   opacity: 0.6;
 }
+
+.header--no-js .navigation {
+  display: flex;
+}

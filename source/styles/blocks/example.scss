@@ -189,6 +189,7 @@
 .example__slider {
   position: relative;
   text-align: center;
+  padding-bottom: 40px;
 
   @media (min-width: $tablet-width) {
     padding-bottom: 100px;
@@ -209,7 +210,7 @@
 .example__slider-button {
   cursor: pointer;
   color: transparent;
-  background-color: $base-color-grey;
+  background-color: $slider-line-grey;
   border: none;
   border-radius: 2px;
   height: 85%;
