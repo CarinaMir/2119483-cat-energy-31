@@ -4,6 +4,10 @@
   @media (min-width: $tablet-width) {
     padding-top: 45px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 71px;
+  }
 }
 
 .rule__subtitle {
@@ -40,6 +44,8 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 94px;
     display: grid;
+    padding: 0;
+    padding-top: 32px;
   }
 }
 

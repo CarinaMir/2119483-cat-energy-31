@@ -44,10 +44,10 @@
       <div class="main-product__content">
         <h1 class="main-product__title">Функциональное питание для котов</h1>
         <p class="main-product__slogan">Занялся собой? Займись котом!</p>
-        <picture class="main-product__picture">
+        <picture>
           <source type="image/png" media="(min-width: 1220px)" srcset="/images/index/indexCanDesktop@1x.png 1x, /images/index/indexCanDesktop@2x.png 2x" width="552" height="499">
           <source type="image/png" media="(min-width: 768px)" srcset="/images/index/indexCanTablet1@1x.png 1x, /images/index/indexCanTablet1@2x.png 2x" width="709" height="609">
-          <img src="/images/index/indexCanMobile1@1x.png" srcset="/images/index/indexCanMobile1@2x.png 2x" width="280" height="270" alt="Главный продукт">
+          <img class="main-product__picture" src="/images/index/indexCanMobile1@1x.png" srcset="/images/index/indexCanMobile1@2x.png 2x" width="280" height="270" alt="Главный продукт">
         </picture>
         <button class="main-product__select-program" name="button" type="button">Подобрать программу</button>
       </div>
@@ -107,8 +107,8 @@
       </div>
     </section>
     <section class="example">
-      <div class="example__content">
-        <div class="example__content-info wrapper-content">
+      <div class="example__content wrapper-content">
+        <div class="example__content-info">
           <h2 class="example__subtitle">Живой пример</h2>
           <div class="example__description">
             Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
@@ -124,13 +124,13 @@
                 <dd>затрачено времени</dd>
               </div>
             </dl>
-            <p class="example__spending">Затраты на питание: 15 000 РУБ.</p>
+            <p class="example__spending">Затраты на питание: <span class="example__spending-value">15 000 РУБ.</span></p>
           </div>
         </div>
         <div class="example__slider">
-          <picture class="example__slider-before">
+          <picture>
             <source type="image/png" media="(min-width: 768px)" srcset="/images/index/catSliderTablet@1x.png 1x, /images/index/catSliderTablet@2x.png 2x" width="520" height="512">
-            <img class="example__picture" src="/images/index/catSliderMobile@1x.png" srcset="/images/index/catSliderMobile@2x.png 2x" width="280" height="256" alt="Кот после похудения">
+            <img class="example__picture example__slider-before" src="/images/index/catSliderMobile@1x.png" srcset="/images/index/catSliderMobile@2x.png 2x" width="280" height="256" alt="Кот после похудения">
           </picture>
           <button class="example__slider-button" type="button">Слайдер</button>
         </div>

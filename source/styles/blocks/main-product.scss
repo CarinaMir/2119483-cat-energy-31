@@ -15,7 +15,6 @@
     padding-bottom: 0;
     margin: 0 auto;
     position: static;
-    height: 580px;
   }
 }
 
@@ -38,11 +37,13 @@
     margin: 0 auto;
     max-width: 1220px;
     position: static;
+    padding-left: 80px;
+    gap: 1px;
   }
 }
 
 .main-product__content::before {
-  @media (max-width: ($tablet-width - 1)) {
+  @media (max-width: $tablet-width) {
     content: "";
     position: absolute;
     background-image: image-set(url("/images/index/catBgMobile@1x.png") 1x, url("/images/index/catBgMobile@2x.png") 2x);
@@ -90,6 +91,8 @@
     padding-left: 0;
     padding-right: 0;
     padding-top: 110px;
+    font-size: 60px;
+    line-height: 60px;
   }
 }
 
@@ -123,11 +126,18 @@
     position: relative;
     grid-row: 1 / 4;
     grid-column: 2;
+    left: -51px;
+    top: 29px;
+  }
+}
+
+.main-product__content > picture {
+  @media (min-width: $desktop-width) {
+    grid-area: 1 / 2 / 4;
   }
 }
 
 .main-product__select-program {
-
   color: #ffffff;
   -webkit-font-smoothing: inherit;
   -moz-osx-font-smoothing: inherit;
@@ -155,6 +165,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin: 0;
+    margin: 0 auto;
+    margin-left: revert;
   }
 }

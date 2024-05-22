@@ -6,7 +6,8 @@
   padding-top: 13px;
   padding-bottom: 14px;
 
-  @media (min-width: $tablet-width) and (max-width: ($desktop-width - 1)) {
+  @media (min-width: $tablet-width)
+    and (max-width: ($desktop-width - 1)) {
     position: relative;
     padding: 25px 34px 0 30px;
   }
@@ -36,6 +37,13 @@
 .header__logo-title {
   $bg-color:#ffffff;
   opacity: 1;
+}
+
+.header__logo-title > img {
+  @media (min-width: $desktop-width) {
+    width: 128px;
+    height: 21px;
+  }
 }
 
 .header__logo-title:hover,

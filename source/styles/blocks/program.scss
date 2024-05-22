@@ -3,7 +3,7 @@
 
   @media (min-width: $desktop-width) {
     padding: 0;
-    padding-top: 82px;
+    padding-top: 162px;
   }
 }
 
@@ -13,7 +13,9 @@
   gap: 20px;
 
   @media (min-width: $desktop-width) {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
   }
 }
 
@@ -33,6 +35,10 @@
     font-size: 36px;
     line-height: 36px;
   }
+
+  @media (min-width: $desktop-width) {
+    gap: 62px;
+  }
 }
 
 .program__title-icon {
@@ -42,6 +48,12 @@
     position: absolute;
     top: 81px;
     right: 63px;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: relative;
+    top: 0;
+    right: 0;
   }
 }
 
@@ -55,14 +67,18 @@
   display: inline-block;
 
   @media (min-width: $tablet-width) {
-    content: " ";
-    background-color: #68b738;
     background-position: 50%;
     border-radius: 50%;
     width: 200px;
     height: 200px;
     display: inline-block;
     position: relative;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
   }
 }
 
@@ -81,6 +97,11 @@
     background-size: 140px 194px;
     inset: -17px 22px;
   }
+
+  @media (min-width: $desktop-width) {
+    background-size: 70px 97px;
+    inset: -3px 12px 3px;
+  }
 }
 
 .program__title-icon--pro::after {
@@ -92,6 +113,11 @@
     background-size: 286px 112px;
     inset: 44px -44px;
   }
+
+  @media (min-width: $desktop-width) {
+    background-size: 134px 56px;
+    inset: 19px -18px 3px;
+  }
 }
 
 .program__item {
@@ -100,9 +126,14 @@
   padding-right: 20px;
   padding-left: 20px;
 
-  @media (min-width: $tablet-width) {
-    height: 372px;
+  @media (min-width: $tablet-width) and  (max-width: ($desktop-width - 1)) {
     padding: 0;
+    padding-bottom: 53px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    display: flex;
   }
 }
 
@@ -125,6 +156,11 @@
     font-size: 16px;
     line-height: 24px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    padding-top: 39px;
+  }
 }
 
 .program__link {
@@ -145,6 +181,11 @@
     padding-top: 48px;
     font-size: 20px;
     line-height: 20px;
+  }
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+    padding-top: 29px;
   }
 }
 
@@ -171,7 +212,11 @@
 
   @media (min-width: $tablet-width) {
     padding: 0;
-    padding-top: 77px;
+    padding-top: 41px;
     padding-left: 52px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 41px 67px 55px 52px;
   }
 }
