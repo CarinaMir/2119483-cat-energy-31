@@ -1,6 +1,6 @@
+
 .news {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-bottom: 40px;
 }
 
 .news_form {
@@ -12,16 +12,18 @@
   font-family: $secondary-font;
   font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 24px;
   text-align: center;
   padding-top: 32px;
   padding-bottom: 24px;
+  padding-left: 5px;
   overflow: hidden;
 }
 
 .news__email {
   height: 56px;
   margin-bottom: 16px;
+  border-color: $line-base-grey;
 }
 
 .news__subtitle {
@@ -30,7 +32,6 @@
   font-weight: 400;
   line-height: 24px;
   margin: 0;
-  padding-top: 40px;
 }
 
 .news__subscribe {

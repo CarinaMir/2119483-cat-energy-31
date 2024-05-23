@@ -58,3 +58,7 @@
 .header--no-js .navigation {
   display: flex;
 }
+
+.header--catalog-layout {
+  border-bottom: 2px solid $header-line-grey;
+}
