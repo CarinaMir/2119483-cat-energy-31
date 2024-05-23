@@ -6,6 +6,11 @@
 .news_form {
   display: flex;
   flex-flow: column nowrap;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 68px;
+    padding-right: 68px;
+  }
 }
 
 .news__description {
@@ -18,12 +23,21 @@
   padding-bottom: 24px;
   padding-left: 5px;
   overflow: hidden;
+
+  @media (min-width: $tablet-width) {
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
 
 .news__email {
   height: 56px;
   margin-bottom: 16px;
   border-color: $line-base-grey;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+  }
 }
 
 .news__subtitle {

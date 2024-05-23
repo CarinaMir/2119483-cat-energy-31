@@ -61,4 +61,8 @@
 
 .header--catalog-layout {
   border-bottom: 2px solid $header-line-grey;
+
+  @media (min-width: $tablet-width) {
+    border-bottom: none;
+  }
 }
