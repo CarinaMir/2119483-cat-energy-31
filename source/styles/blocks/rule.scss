@@ -3,6 +3,7 @@
 
   @media (min-width: $tablet-width) {
     padding-top: 45px;
+    padding-bottom: 47px;
   }
 
   @media (min-width: $desktop-width) {
@@ -25,7 +26,9 @@
 
 
 .rule__content {
-  padding-bottom: 29px;
+  @media (min-width: $tablet-width) {
+    //padding-bottom: 29px;
+  }
 }
 
 .rule__list {

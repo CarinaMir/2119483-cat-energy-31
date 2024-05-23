@@ -81,9 +81,26 @@
 
 .contact__map {
   padding-top: 26px;
+  position: relative;
 
   @media (min-width: $tablet-width) {
     padding: 0;
+  }
+}
+
+.contact__map .contact__map-image {
+  position: absolute;
+  top: 139px;
+  right: 134px;
+
+  @media (min-width: $tablet-width) {
+    top: 146px;
+    right: 333px;
+  }
+
+  @media (min-width: $desktop-width) {
+    top: 131px;
+    right: 419px;
   }
 }
 
@@ -96,11 +113,11 @@
   }
 }
 
-.contact__map img {
+.contact__map .contact__location {
   display: none;
 }
 
-.contact__map--no-js img {
+.contact__map--no-js .contact__location {
   display: block;
 }
 
