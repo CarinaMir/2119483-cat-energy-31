@@ -48,6 +48,11 @@
   font-weight: 400;
   line-height: 14px;
   overflow: hidden;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 
 .extra-product__description-item {
@@ -76,6 +81,14 @@
 
 .extra-product__item:last-child {
   border-bottom: 1px solid $line-base-grey;
+}
+
+.extra-product__item-row {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .extra-product__subtitle {
@@ -145,7 +158,7 @@
     background-image: url("/images/catalog/giftTablet@2x.png");
     height: 200px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 57px 125px 60px 77px;
   }
@@ -169,5 +182,12 @@
 
   @media (min-width: $tablet-width) {
     margin: 0;
+  }
+}
+
+.extra-product__gift-info {
+  @media (min-width: $tablet-width) {
+    width: 160px;
+    text-align: left;
   }
 }

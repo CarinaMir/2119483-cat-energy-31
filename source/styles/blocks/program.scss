@@ -123,8 +123,7 @@
 .program__item {
   background-color: $bg-base-lightgrey;
   padding-top: 21px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-bottom: 18px;
 
   @media (min-width: $tablet-width) and  (max-width: ($desktop-width - 1)) {
     padding: 0;
@@ -174,7 +173,6 @@
   align-items: center;
   gap: 15px;
   padding-top: 15px;
-  padding-bottom: 18px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
