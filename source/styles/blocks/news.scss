@@ -1,6 +1,6 @@
 
 .news {
-  padding-bottom: 40px;
+  padding-bottom: 31px;
 }
 
 .news_form {
@@ -21,7 +21,7 @@
   text-align: center;
   padding-top: 32px;
   padding-bottom: 24px;
-  padding-left: 5px;
+
   overflow: hidden;
 
   @media (min-width: $tablet-width) {
@@ -34,10 +34,23 @@
   height: 56px;
   margin-bottom: 16px;
   border-color: $line-base-grey;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-family: $secondary-font;
+  padding-left: 13px;
 
   @media (min-width: $tablet-width) {
     margin: 0;
   }
+}
+
+.news__email:valid {
+  border-color: $line-base-grey;
+}
+
+.news__email:invalid {
+  border-color: $input_color-red;
 }
 
 .news__subtitle {
@@ -45,7 +58,46 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
+  padding-bottom: 36px;
   margin: 0;
+  padding-top: 25px;
+  padding-left: 20px;
+  position: relative;
+  width: fit-content;
+  box-shadow: -40px 0 0 0 $base-color-white, 40px 0 0 0 $base-color-white;
+  background: $base-color-white;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 70px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 70px;
+  }
+}
+
+
+.news__subtitle::after {
+  content: " ";
+  background: #68b738;
+  width: 100vw;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  box-shadow: 100vw 0 #68b738;
+  z-index: -1;
+}
+
+.news__subtitle::before {
+  content: " ";
+  background: #68b738;
+  width: 50vw;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  right: 190px;
+  box-shadow: -50vw 0 #68b738;
 }
 
 .news__subscribe {
