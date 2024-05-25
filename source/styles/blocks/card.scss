@@ -10,6 +10,8 @@
     font-size: 20px;
     line-height: 24px;
     padding: 0;
+    width: 135px;
+    margin: 0 auto;
   }
 }
 
@@ -25,7 +27,7 @@
   @media (min-width: $tablet-width) {
     border: 2px solid $card-color-lightgrey;
     padding: 50px 37px 40px;
-    margin-top: 78px;
+    margin-top: 93px;
   }
 }
 
@@ -50,6 +52,10 @@
   @media (min-width: $tablet-width) {
     padding-top: 23px;
     padding-bottom: 82px;
+    width: 170px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 
@@ -59,8 +65,10 @@
   font-weight: 400;
   line-height: 16px;
   text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  flex-direction: column;
   padding-top: 14px;
   overflow: hidden;
 
@@ -71,6 +79,18 @@
     display: grid;
     gap: 10px;
     border-bottom: 1px solid $line-base-grey;
+  }
+}
+
+.card__description-row {
+  display: flex;
+  place-content: center space-between;
+  align-items: center;
+
+  @media (min-width: $tablet-width) {
+
+    border-bottom: 1px solid $line-base-grey;
+    padding-bottom: 2px;
   }
 }
 

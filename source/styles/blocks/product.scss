@@ -61,6 +61,7 @@
   @media (min-width: $tablet-width) {
     padding: 0;
     padding-bottom: 40px;
+    padding-top: 28px;
   }
 }
 
@@ -82,7 +83,7 @@
     position: absolute;
     content: "";
     width: 100%;
-    height: 84%;
+    height: 82%;
     background: $bg-base-lightgrey;
     left: 0;
     bottom: 0;
