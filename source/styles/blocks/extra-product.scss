@@ -36,9 +36,9 @@
   }
 
   @media (min-width: $desktop-width) {
+    align-items: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 80px;
+    grid-template-columns: 1.75fr 0.25fr;
   }
 }
 
@@ -58,6 +58,11 @@
 .extra-product__description-item {
   display: flex;
   justify-content: space-between;
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .extra-product__item {
@@ -75,7 +80,10 @@
   }
 
   @media (min-width: $desktop-width) {
-    grid-template-columns: 1fr 1fr 1fr;
+    border: 0;
+    border-top: 1px solid $line-base-grey;
+    grid-template-columns: 1fr 0.5fr;
+    padding: 0;
   }
 }
 
@@ -88,6 +96,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -166,6 +179,7 @@
   @media (min-width: $desktop-width) {
     background-image: url("/images/catalog/giftDesktop@2x.png");
     height: 288px;
+    max-width: 245px;
   }
 }
 
