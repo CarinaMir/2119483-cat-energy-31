@@ -6,6 +6,11 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 96px;
+    padding-bottom: 104px;
+  }
 }
 
 .news_form {
@@ -77,6 +82,7 @@
 
   @media (min-width: $desktop-width) {
     padding-left: 70px;
+    font-size: 40px;
   }
 }
 
@@ -105,6 +111,10 @@
 
   @media (min-width: $tablet-width) {
     right: 240px;
+  }
+
+  @media (min-width: $desktop-width) {
+    right: 290px;
   }
 }
 

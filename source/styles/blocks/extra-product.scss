@@ -23,6 +23,10 @@
   @media (min-width: $tablet-width) {
     padding-bottom: 70px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+  }
 }
 
 
@@ -38,7 +42,8 @@
   @media (min-width: $desktop-width) {
     align-items: center;
     display: grid;
-    grid-template-columns: 1.75fr 0.25fr;
+    grid-template-columns: 1fr 0.25fr;
+    gap: 80px;
   }
 }
 
@@ -84,6 +89,8 @@
     border-top: 1px solid $line-base-grey;
     grid-template-columns: 1fr 0.5fr;
     padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
@@ -127,6 +134,7 @@
 
   @media (min-width: $desktop-width) {
     padding-left: 70px;
+    font-size: 40px;
   }
 }
 
@@ -155,6 +163,10 @@
   @media (min-width: $tablet-width) {
     right: 335px;
   }
+
+  @media (min-width: $desktop-width) {
+    right: 410px;
+  }
 }
 
 .extra-product__gift {
@@ -180,6 +192,12 @@
     background-image: url("/images/catalog/giftDesktop@2x.png");
     height: 288px;
     max-width: 245px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
   }
 }
 
@@ -202,6 +220,6 @@
 .extra-product__gift-info {
   @media (min-width: $tablet-width) {
     width: 160px;
-    text-align: left;
+    text-align: center;
   }
 }
