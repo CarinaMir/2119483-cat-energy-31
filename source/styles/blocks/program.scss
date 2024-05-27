@@ -4,11 +4,6 @@
   @media (min-width: $tablet-width) {
     margin-top: -35px;
   }
-
-  @media (min-width: $desktop-width) {
-    padding: 0;
-    padding-top: 162px;
-  }
 }
 
 .program__list {
@@ -190,6 +185,11 @@
     font-size: 20px;
     line-height: 20px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    padding-top: 32px;
+  }
 }
 
 .program__link::after {
@@ -224,6 +224,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 41px 67px 55px 52px;
+    padding: 61px 67px 55px 52px;
   }
 }
