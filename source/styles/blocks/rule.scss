@@ -3,7 +3,7 @@
 
   @media (min-width: $tablet-width) {
     padding-top: 45px;
-    padding-bottom: 47px;
+    padding-bottom: 55px;
   }
 
   @media (min-width: $desktop-width) {
@@ -27,10 +27,6 @@
 
 .rule__content {
   padding-bottom: 29px;
-
-  @media (min-width: $tablet-width) {
-
-  }
 }
 
 .rule__list {
@@ -39,7 +35,7 @@
   @media (min-width: $tablet-width) {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 153px;
+    gap: 114px 127px;
     padding-right: 70px;
     padding-top: 72px;
     counter-reset: section;
@@ -65,7 +61,7 @@
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 24px;
-    padding-right: 26px;
+    padding-right: 16px;
   }
 }
 
@@ -89,13 +85,35 @@
     content: counter(section);
     position: absolute;
     font-size: 280px;
-    right: 15px;
-    top: -120px;
     color: #f2f2f2;
     z-index: -1;
     font-family: $secondary-font;
+    top: -108px;
+    right: 30px;
   }
 }
+
+.rule__item:nth-child(2)::after {
+  @media (min-width: $tablet-width) {
+    top: -106px;
+    right: 12px;
+  }
+}
+
+.rule__item:nth-child(3)::after {
+  @media (min-width: $tablet-width) {
+    top: -106px;
+    right: 10px;
+  }
+}
+
+.rule__item:last-child::after {
+  @media (min-width: $tablet-width) {
+    top: -106px;
+    right: 10px;
+  }
+}
+
 
 .rule__icon::before {
   content: " ";

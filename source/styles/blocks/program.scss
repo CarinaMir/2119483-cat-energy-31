@@ -1,6 +1,10 @@
 .program {
   padding-top: 20px;
 
+  @media (min-width: $tablet-width) {
+    margin-top: -35px;
+  }
+
   @media (min-width: $desktop-width) {
     padding: 0;
     padding-top: 162px;
@@ -11,6 +15,10 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+
+  @media (min-width: $tablet-width) {
+    gap: 18px;
+  }
 
   @media (min-width: $desktop-width) {
     display: grid;
@@ -46,8 +54,8 @@
 
   @media (min-width: $tablet-width) {
     position: absolute;
-    top: 81px;
-    right: 63px;
+    top: 107px;
+    right: 64px;
   }
 
   @media (min-width: $desktop-width) {
@@ -95,7 +103,7 @@
 
   @media (min-width: $tablet-width) {
     background-size: 140px 194px;
-    inset: -17px 22px;
+    inset: -11px 29px;
   }
 
   @media (min-width: $desktop-width) {
@@ -127,7 +135,7 @@
 
   @media (min-width: $tablet-width) and  (max-width: ($desktop-width - 1)) {
     padding: 0;
-    padding-bottom: 53px;
+    padding-bottom: 60px;
   }
 
   @media (min-width: $desktop-width) {
@@ -177,14 +185,9 @@
 
   @media (min-width: $tablet-width) {
     padding: 0;
-    padding-top: 48px;
+    padding-top: 58px;
     font-size: 20px;
     line-height: 20px;
-  }
-
-  @media (min-width: $tablet-width) {
-    padding: 0;
-    padding-top: 29px;
   }
 }
 
@@ -196,6 +199,10 @@
   width: 30px;
   height: 12px;
   background-color: $base-color-black;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 10px;
+  }
 }
 
 .program__link:active {
@@ -211,7 +218,7 @@
 
   @media (min-width: $tablet-width) {
     padding: 0;
-    padding-top: 41px;
+    padding-top: 91px;
     padding-left: 52px;
   }
 
