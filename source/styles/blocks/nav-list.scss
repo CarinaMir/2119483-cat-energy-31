@@ -20,6 +20,10 @@
   }
 }
 
+.nav-list__item:first-child {
+  padding-right: 3px;
+}
+
 .nav-list__item:hover,
 .nav-list__item:focus {
   opacity: 0.6;

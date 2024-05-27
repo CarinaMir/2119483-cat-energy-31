@@ -1,7 +1,7 @@
 .copyright {
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
+  padding-top: 27px;
   padding-bottom: 40px;
 
   @media (min-width: $tablet-width) {
@@ -12,6 +12,8 @@
 .copyright__link {
   font-size: 0;
   color: $base-color-grey;
+  margin-top: -5px;
+  margin-right: -2px;
 
   @media (min-width: $tablet-width) {
     padding-left: 23px;

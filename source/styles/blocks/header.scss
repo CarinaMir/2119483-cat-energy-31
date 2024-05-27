@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 13px;
-  padding-bottom: 14px;
+  padding-bottom: 10px;
 
   @media (min-width: $tablet-width)
     and (max-width: ($desktop-width - 1)) {
@@ -24,6 +24,7 @@
   height: 24px;
   background-repeat: no-repeat;
   border: 0;
+  margin-top: -2px;
 
   @media (min-width: $tablet-width) {
     display: none;
@@ -37,6 +38,7 @@
 .header__logo-title {
   $bg-color:#ffffff;
   opacity: 1;
+  padding-right: 10px;
 }
 
 .header__logo-title > img {
