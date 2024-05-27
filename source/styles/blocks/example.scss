@@ -199,7 +199,7 @@
   padding-bottom: 40px;
 
   @media (min-width: $tablet-width) {
-    padding-bottom: 100px;
+    padding-bottom: 87px;
   }
 }
 
@@ -212,6 +212,10 @@
   left: 0;
   bottom: 0;
   z-index: -1;
+
+  @media (min-width: $tablet-width) {
+    height: 77%;
+  }
 }
 
 .example__slider-button {
@@ -227,6 +231,10 @@
   position: absolute;
   top: 0;
   left: 50%;
+
+  @media (min-width: $tablet-width) {
+    top: -17px;
+  }
 }
 
 .example__slider-after {

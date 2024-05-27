@@ -65,6 +65,12 @@
   }
 }
 
+.rule__description:last-child {
+  @media (min-width: $tablet-width) {
+    width: 260px;
+  }
+}
+
 .rule__item {
   display: flex;
   padding-bottom: 20px;

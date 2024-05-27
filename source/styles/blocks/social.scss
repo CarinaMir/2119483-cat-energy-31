@@ -6,6 +6,10 @@
   gap: 24px;
   display: flex;
   justify-content: center;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 38px;
+  }
 }
 
 .social__icon {
