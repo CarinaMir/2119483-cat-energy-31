@@ -34,8 +34,8 @@
 
   @media (min-width: $tablet-width) {
     display: grid;
-    grid-template-columns: 260px 260px;
-    gap: 114px 127px;
+    grid-template-columns: 255px 325px;
+    gap: 135px 127px;
     padding-top: 72px;
     counter-reset: section;
     justify-content: center;
@@ -65,15 +65,21 @@
 }
 
 .rule__item {
-  display: flex;
-  gap: 20px;
   align-items: center;
+  gap: 20px 20px;
+  display: flex;
+  padding-bottom: 20px;
 
   @media (min-width: $tablet-width) {
     align-items: flex-start;
     flex-direction: column;
     gap: 31px;
     position: relative;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-bottom: 0;
+    gap: 20px;
   }
 }
 
@@ -83,11 +89,11 @@
     content: counter(section);
     position: absolute;
     font-size: 280px;
-    line-height: 1;
+    line-height: 280px;
     color: #f2f2f2;
     z-index: -1;
     top: -40px;
-    right: 10px;
+    right: 0;
     font-family: $secondary-font;
   }
 }
