@@ -1,6 +1,6 @@
 .news {
-  padding-bottom: 31px;
-  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-top: 18px;
 
   @media (min-width: $tablet-width) {
     padding-top: 80px;
@@ -16,7 +16,7 @@
 .news_form {
   display: flex;
   flex-flow: column nowrap;
-  padding-top: 36px;
+  padding-top: 14px;
 
   @media (min-width: $tablet-width) {
     padding-left: 68px;
