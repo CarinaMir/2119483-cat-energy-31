@@ -6,11 +6,11 @@
 
   <title>Cat Energy</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <!-- preload -->
+
   <link rel="preload" href="./styles/styles.css" as="style" crossorigin="anonymous">
   <link rel="preload" href="./fonts/oswald/oswaldregular.woff2" as="font" crossorigin="anonymous">
   <link rel="preload" href="./fonts/lato/Lato-Regular.woff2" as="font" crossorigin="anonymous">
-  <!-- preload -->
+
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="icon" href="./favicon.ico"><!-- 32×32 -->
   <link rel="icon" href="./favicons/icon.svg" type="image/svg+xml">
@@ -21,22 +21,22 @@
 
 <body class="page__body">
   <header class="header wrapper-content header--no-js" data-test="header">
-    <a class="logo" href="#index.html">
+    <a class="logo" href="/index.html">
       <picture>
         <source type="image/svg+xml" media="(min-width: 1440px)" srcset="/icons/stack.svg#logoDesktop" width="70" height="59">
         <source type="image/svg+xml" media="(min-width: 768px)" srcset="/icons/stack.svg#logoTablet" width="60" height="50">
         <img class="logo__image" loading="lazy" src="/icons/stack.svg#logoMobile" width="33" height="38" alt="Логотип Cat Energy">
       </picture>
     </a>
-    <a class="header__logo-title" href="#index.html">
+    <a class="header__logo-title" href="/index.html">
       <img loading="lazy" src="/images/common/title.svg" width="101" height="18" alt="Cat Energy">
     </a>
-    <button class="header__toggle header__toggle--closed" type="button">
+    <button class="header__toggle" type="button">
       <span class="visually-hidden">
         Открыть меню
       </span>
     </button>
-    <nav class="navigation">
+    <nav class="navigation navigation--active">
       <ul class="navigation__list nav-list">
         <li class="nav-list__item nav-list__item--active"><a class="nav-list__item-link nav-list__item-link--light" href="#">главная</a></li>
         <li class="nav-list__item"><a class="nav-list__item-link nav-list__item-link--light" href="#">каталог продукции</a></li>
@@ -54,7 +54,7 @@
           <source type="image/png" media="(min-width: 768px)" srcset="/images/index/indexCanTablet1@1x.png 1x, /images/index/indexCanTablet1@2x.png 2x" width="709" height="609">
           <img class="main-product__picture" loading="lazy" src="/images/index/indexCanMobile1@1x.png" srcset="/images/index/indexCanMobile1@2x.png 2x" width="280" height="269" alt="Главный продукт">
         </picture>
-        <button class="main-product__select-program" name="button" type="button">Подобрать программу</button>
+        <a class="main-product__select-program" href="/form.html">Подобрать программу</a>
       </div>
     </section>
     <section class="program" data-test="programs">
@@ -68,7 +68,7 @@
                 похудение
               </p>
               <p class="program__description">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
-              <a class="program__link" href="#">
+              <a class="program__link" href="/catalog-slim.html">
                 каталог slim
               </a>
             </div>
@@ -80,7 +80,7 @@
                 Набор массы
               </div>
               <p class="program__description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
-              <a class="program__link" href="#">
+              <a class="program__link" href="/catalog-pro.html">
                 каталог pro
               </a>
             </div>
@@ -169,7 +169,7 @@
   <footer class="footer" data-test="footer">
     <div class="footer__content wrapper-content">
       <h2 class="subtitle visually-hidden">Соц.сети</h2>
-      <a class="logo footer__content-item " href="#index.html">
+      <a class="logo footer__content-item " href="/index.html">
         <img class="logo__title logo__title-huge" loading="lazy" src="/images/common/title.svg" width="101" height="18" alt="Cat Energy">
       </a>
       <div class="social footer__content-item ">
@@ -187,7 +187,7 @@
       </div>
       <div class="copyright">
         <p class="copyright__text">HTML Academy</p>
-        <a class="copyright__link" href="#">HTML Academy
+        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy
           <svg viewBox="0 0 32 30" width="32" height="30" xmlns="http://www.w3.org/2000/svg">
             <use href="/icons/stack.svg#htmlAdademy_logo"></use>
           </svg>
