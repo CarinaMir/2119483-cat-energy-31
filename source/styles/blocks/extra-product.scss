@@ -86,11 +86,10 @@
   @media (min-width: $desktop-width) {
     border: 0;
     border-top: 1px solid $line-base-grey;
-    grid-template-columns: 1fr 244px;
-    padding: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    grid-template-columns: 640px 254px;
+    padding: 1px 0 17px;
     align-items: center;
+    justify-content: center;
   }
 }
 
@@ -107,7 +106,7 @@
 
   @media (min-width: $desktop-width) {
     display: grid;
-    grid-template-columns: 329px 324px;
+    grid-template-columns: 316px 392px;
     gap: 10px;
   }
 }
@@ -134,6 +133,7 @@
 
   @media (min-width: $desktop-width) {
     font-size: 40px;
+    padding: 0;
   }
 }
 

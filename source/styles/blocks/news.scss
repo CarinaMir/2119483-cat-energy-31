@@ -9,18 +9,22 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-top: 96px;
+    padding-top: 57px;
     padding-bottom: 104px;
   }
 }
 
-.news_form {
+.news__form {
   display: flex;
   flex-flow: column nowrap;
   padding-top: 14px;
 
   @media (min-width: $tablet-width) {
     padding: 40px 40px 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    align-items: center;
   }
 }
 
@@ -79,6 +83,7 @@
 
   @media (min-width: $desktop-width) {
     font-size: 40px;
+    padding-left: 0;
   }
 }
 
@@ -124,5 +129,9 @@
 
   @media (min-width: $tablet-width) {
     grid-template-columns: 374px 256px;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: 496px 256px;
   }
 }

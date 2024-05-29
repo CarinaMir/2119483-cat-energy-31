@@ -20,4 +20,8 @@
 .button--outline {
   background: $bg-base-lightgrey;
   color: $base-color-black;
+
+  @media (min-width: $desktop-width) {
+    padding: 10px 0;
+  }
 }
