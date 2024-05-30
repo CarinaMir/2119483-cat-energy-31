@@ -32,8 +32,8 @@
 
 .navigation__list {
   @media (min-width: $tablet-width) {
-    flex-direction: row;
-    gap: 33px;
+    flex-flow: row wrap;
+    gap: 33px 20px;
     display: flex;
     justify-content: flex-end;
   }

@@ -54,7 +54,8 @@
 }
 
 .social__icon:hover::before,
-.social__icon:focus::before {
+.social__icon:focus::before,
+.social__icon:focus-visible::before {
   background-color: $bg-base-green;
   opacity: 1;
 }

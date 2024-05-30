@@ -37,7 +37,8 @@
 }
 
 .copyright__text:hover,
-.copyright__text:focus {
+.copyright__text:focus,
+.copyright__text:focus-visible {
   color: $bg-base-green;
   opacity: 1;
 }

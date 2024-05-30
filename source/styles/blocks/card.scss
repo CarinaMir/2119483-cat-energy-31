@@ -21,6 +21,24 @@
   }
 }
 
+.card__order:active {
+  color: color-mix(in srgb, #5eaa2f 70%, white);
+}
+
+.card__order:hover,
+.card__order:focus,
+.card__order:focus-visible {
+  background: #5eaa2f;
+}
+
+
+.card__show:hover,
+.card__show:active,
+.card__show:focus,
+.card__show:focus-visible {
+  background: #ebebeb;
+}
+
 .card--more-products {
   text-align: center;
 

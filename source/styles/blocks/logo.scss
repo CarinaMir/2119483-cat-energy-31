@@ -20,7 +20,8 @@
 }
 
 .logo:hover,
-.logo:focus {
+.logo:focus,
+.logo:focus-visible {
   opacity: 0.8;
 }
 

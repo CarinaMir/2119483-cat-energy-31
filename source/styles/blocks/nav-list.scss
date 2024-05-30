@@ -25,6 +25,7 @@
 }
 
 .nav-list__item:hover,
+.nav-list__item:focus-visible,
 .nav-list__item:focus {
   opacity: 0.6;
 }
@@ -58,6 +59,10 @@
   opacity: 1;
   color: $bg-base-green;
   text-underline-offset: 10px;
+
+  @media (min-width: $desktop-width) {
+    color: $base-color-white;
+  }
 }
 
 @media (min-width: $tablet-width) and (max-width: ($tablet-width - 1)) {

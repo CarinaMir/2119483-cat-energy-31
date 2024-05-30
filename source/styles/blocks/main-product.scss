@@ -171,3 +171,14 @@
     padding: 14px 27px;
   }
 }
+
+.main-product__select-program:active {
+  color: color-mix(in srgb, #5eaa2f 70%, white);
+}
+
+
+.main-product__select-program:hover,
+.main-product__select-program:focus,
+.main-product__select-program:focus-visible {
+  background: #5eaa2f;
+}

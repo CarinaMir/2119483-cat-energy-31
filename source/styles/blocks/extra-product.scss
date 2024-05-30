@@ -215,3 +215,13 @@
     text-align: left;
   }
 }
+
+.extra-product__order:active {
+  color: color-mix(in srgb, #5eaa2f 70%, white);
+}
+
+.extra-product__order:hover,
+.extra-product__order:focus,
+.extra-product__order:focus-visible {
+  background: #5eaa2f;
+}

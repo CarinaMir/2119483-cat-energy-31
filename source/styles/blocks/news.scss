@@ -135,3 +135,13 @@
     grid-template-columns: 496px 256px;
   }
 }
+
+.news__subscribe:active {
+  color: color-mix(in srgb, #5eaa2f 70%, white);
+}
+
+.news__subscribe:hover,
+.news__subscribe:focus,
+.news__subscribe:focus-visible {
+  background: #5eaa2f;
+}
