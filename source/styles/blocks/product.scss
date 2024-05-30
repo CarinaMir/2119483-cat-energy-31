@@ -30,7 +30,7 @@
 
 .product__main-title::before {
   content: "";
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid $border-color-lightgrey;
   width: calc(100% + 40px);
   height: 2px;
   position: absolute;

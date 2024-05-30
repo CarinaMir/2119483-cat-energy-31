@@ -90,25 +90,25 @@
 
 .news__subtitle::after {
   content: " ";
-  background: #68b738;
+  background: $bg-base-green;
   width: 100vw;
   height: 2px;
   position: absolute;
   top: 50%;
   left: 0;
-  box-shadow: 100vw 0 #68b738;
+  box-shadow: 100vw 0$bg-base-green;
   z-index: -1;
 }
 
 .news__subtitle::before {
   content: " ";
-  background: #68b738;
+  background: $bg-base-green;
   width: 50vw;
   height: 2px;
   position: absolute;
   top: 50%;
   right: 190px;
-  box-shadow: -50vw 0 #68b738;
+  box-shadow: -50vw 0 $bg-base-green;
   z-index: -1;
 }
 
@@ -137,11 +137,11 @@
 }
 
 .news__subscribe:active {
-  color: color-mix(in srgb, #5eaa2f 70%, white);
+  color: color-mix(in sRGB, $bg-btn-green 70%, $base-color-white);
 }
 
 .news__subscribe:hover,
 .news__subscribe:focus,
 .news__subscribe:focus-visible {
-  background: #5eaa2f;
+  background: $bg-btn-green;
 }

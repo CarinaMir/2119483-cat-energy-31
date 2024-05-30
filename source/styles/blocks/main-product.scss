@@ -48,7 +48,7 @@
     position: absolute;
     background-image: image-set(url("/images/index/catBgMobile@1x.png") 1x, url("/images/index/catBgMobile@2x.png") 2x);
     background-repeat: no-repeat;
-    background-color: #63a63c;
+    background-color: $bg-base-green;
     background-position: center;
     width: 100%;
     height: 302px;
@@ -60,7 +60,7 @@
     position: absolute;
     background-image: image-set(url("/images/index/catBgDesktop@1x.jpg") 1x, url("/images/index/catBgDesktop@2x.jpg") 2x);
     background-repeat: no-repeat;
-    background-color: #63a63c;
+    background-color: $bg-base-green;
     top: 0;
     left: 50%;
     right: 0;
@@ -139,11 +139,11 @@
 }
 
 .main-product__select-program {
-  color: #ffffff;
+  color: $base-color-white;
   -webkit-font-smoothing: inherit;
   -moz-osx-font-smoothing: inherit;
   appearance: none;
-  background: #68b738;
+  background: $bg-base-green;
   border: none;
   outline: none;
   width: auto;
@@ -158,7 +158,7 @@
   @media (min-width: $tablet-width) {
     margin-left: 120px;
     z-index: 999;
-    background: #68b738;
+    background: $bg-base-green;
     padding: 14px 26px;
     font-family: $secondary-font;
     font-size: 20px;
@@ -166,19 +166,20 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin: 0 auto;
-    margin-left: revert;
-    padding: 14px 27px;
+    font-size: 15px;
+    margin: 0;
+    margin-right: 172px;
+    text-align: center;
   }
 }
 
 .main-product__select-program:active {
-  color: color-mix(in srgb, #5eaa2f 70%, white);
+  color: color-mix(in sRGB, $bg-btn-green 70%, $base-color-white);
 }
 
 
 .main-product__select-program:hover,
 .main-product__select-program:focus,
 .main-product__select-program:focus-visible {
-  background: #5eaa2f;
+  background: $bg-btn-green;
 }

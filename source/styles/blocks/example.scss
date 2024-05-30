@@ -31,7 +31,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    background-color: $base-color-white;
+    background-color: transparent;
     grid-template-columns: 500px 650px;
     padding: 19px 0 0;
     display: grid;

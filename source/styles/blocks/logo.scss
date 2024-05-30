@@ -1,5 +1,5 @@
 .logo {
-  $bg-color:#ffffff;
+  $bg-color:$base-color-white;
   opacity: 1;
 
   @media (min-width: $tablet-width) {

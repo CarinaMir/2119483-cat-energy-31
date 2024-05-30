@@ -1,5 +1,5 @@
 .header {
-  $bg-color:#ffffff;
+  $bg-color:$base-color-white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,7 +18,7 @@
 }
 
 .header__toggle {
-  background-color: #ffffff;
+  background-color: $base-color-white;
   background-image: url("/icons/stack.svg#burger_menu_closed");
   width: 24px;
   height: 24px;
@@ -36,7 +36,7 @@
 }
 
 .header__logo-title {
-  $bg-color:#ffffff;
+  $bg-color: $base-color-white;
   opacity: 1;
   padding-right: 10px;
 }
