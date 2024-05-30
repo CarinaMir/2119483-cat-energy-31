@@ -129,6 +129,7 @@
 
   @media (min-width: $tablet-width) {
     grid-template-columns: 374px 256px;
+    justify-content: center;
   }
 
   @media (min-width: $desktop-width) {

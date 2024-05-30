@@ -12,7 +12,7 @@
 
   @media (min-width: $desktop-width) {
     max-width: 1220px;
-    padding-bottom: 266px;
+    padding-bottom: 189px;
     margin: 0 auto;
     position: static;
   }
@@ -32,7 +32,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    grid-template-columns: 418px 552px;
+    grid-template-columns: 422px 552px;
     display: grid;
     margin: 0 auto;
     max-width: 1220px;
@@ -84,7 +84,7 @@
     line-height: 60px;
     padding-top: 55px;
     padding-left: 119px;
-    padding-right: 234px;
+    padding-right: 119px;
     text-align: left;
   }
 
@@ -105,7 +105,7 @@
   padding-bottom: 29px;
 
   @media (min-width: $tablet-width) {
-    padding: 40px 365px 50px 120px;
+    padding: 40px 120px 50px;
     font-size: 20px;
     line-height: 20px;
   }
