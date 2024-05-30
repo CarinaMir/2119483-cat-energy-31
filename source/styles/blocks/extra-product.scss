@@ -214,11 +214,16 @@
     max-width: 160px;
     text-align: left;
   }
+
+  @media (min-width: $desktop-width) {
+    text-align: center;
+  }
 }
 
 .extra-product__order {
   padding-top: 10px;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 .extra-product__order:active {
