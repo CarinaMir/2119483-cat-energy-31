@@ -19,7 +19,7 @@
 
 .header__toggle {
   background-color: $base-color-white;
-  background-image: url("/icons/stack.svg#burger_menu_closed");
+  background-image: url("../../icons/stack.svg#burger_menu_closed");
   width: 24px;
   height: 24px;
   background-repeat: no-repeat;
@@ -32,7 +32,7 @@
 }
 
 .header__toggle--closed {
-  background-image: url("/icons/stack.svg#burger_menu_opened");
+  background-image: url("../../icons/stack.svg#burger_menu_opened");
 }
 
 .header__logo-title {

@@ -22,10 +22,12 @@
 
 .social__icon--vk::before {
   content: " ";
+  background-image: url("../../icons/stack.svg#vkontakte");
+  background-size: 0;
   width: 28px;
   height: 22px;
   display: block;
-  mask-image: url("/icons/stack.svg#vkontakte");
+  mask-image: url("../../icons/stack.svg#vkontakte");
   mask-size: 28px 22px;
   mask-repeat: no-repeat;
   background-color: #666666;
@@ -33,10 +35,12 @@
 
 .social__icon--youtube::before {
   content: " ";
+  background-image: url("../../icons/stack.svg#youtube");
+  background-size: 0;
   width: 28px;
   height: 22px;
   display: block;
-  mask-image: url("/icons/stack.svg#youtube");
+  mask-image: url("../../icons/stack.svg#youtube");
   mask-size: 28px 22px;
   mask-repeat: no-repeat;
   background-color: #666666;
@@ -44,10 +48,12 @@
 
 .social__icon--telegram::before {
   content: " ";
+  background-image: url("../../icons/stack.svg#telegram");
+  background-size: 0;
   width: 28px;
   height: 22px;
   display: block;
-  mask-image: url("/icons/stack.svg#telegram");
+  mask-image: url("../../icons/stack.svg#telegram");
   mask-size: 28px 22px;
   mask-repeat: no-repeat;
   background-color: #666666;

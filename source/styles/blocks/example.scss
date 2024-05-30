@@ -294,6 +294,8 @@
 
 .example__slider-button::after {
   content: " ";
+  background-image: url("../../icons/stack.svg#slider_arrows");
+  background-size: 0;
   background-color: $base-color-grey;
   width: 24px;
   height: 18px;
@@ -301,7 +303,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  mask-image: url("/icons/stack.svg#slider_arrows");
+  mask-image: url("../../icons/stack.svg#slider_arrows");
   mask-position: 50%;
   mask-size: 24px 18px;
   mask-repeat: no-repeat;

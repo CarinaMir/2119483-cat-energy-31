@@ -102,7 +102,7 @@
 
 .program__item-icon--slim::after {
   inset: -2px 7px 3px;
-  background-image: url("/icons/stack.svg#cat-slim");
+  background-image: url("../../icons/stack.svg#cat-slim");
   background-size: 36px 50px;
 
   @media (min-width: $tablet-width) {
@@ -118,7 +118,7 @@
 
 .program__item-icon--pro::after {
   inset: 12px -9px;
-  background-image: url("/icons/stack.svg#cat-pro");
+  background-image: url("../../icons/stack.svg#cat-pro");
   background-size: 67px 28px;
 
   @media (min-width: $tablet-width) {
@@ -205,9 +205,10 @@
 
 .program__link::after {
   content: " ";
-  mask-image: url("/icons/stack.svg#arrow");
+  background-image: url("../../icons/stack.svg#arrow");
+  background-size: 0;
+  mask-image: url("../../icons/stack.svg#arrow");
   background-repeat: no-repeat;
-  background-size: 30px 12px;
   width: 30px;
   height: 12px;
   background-color: $base-color-black;
