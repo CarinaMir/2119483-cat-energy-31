@@ -216,6 +216,11 @@
   }
 }
 
+.extra-product__order {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .extra-product__order:active {
   color: color-mix(in sRGB, $bg-btn-green 70%, $base-color-white);
 }

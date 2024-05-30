@@ -16,8 +16,15 @@
 }
 
 .card__order {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.card__order-content {
   @media (min-width: $tablet-width) {
-    margin: 0 37px;
+    padding-left: 37px;
+    padding-right: 37px;
   }
 }
 
@@ -29,6 +36,11 @@
 .card__order:focus,
 .card__order:focus-visible {
   background: $bg-btn-green;
+}
+
+.card__show {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
@@ -140,8 +152,7 @@
 
   @media (min-width: $tablet-width) {
     grid-template-columns: 1fr;
-    padding: 0 37px;
-    padding-bottom: 32px;
+    padding: 0 40px 32px;
     display: grid;
     text-align: center;
   }
