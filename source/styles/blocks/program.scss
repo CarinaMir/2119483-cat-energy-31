@@ -167,7 +167,7 @@
   padding-top: 29px;
   padding-right: 13px;
   border-bottom: 2px solid $bg-base-grey;
-  overflow: hidden;
+  overflow-wrap: anywhere;
 
   @media (min-width: $tablet-width) {
     padding: 0;

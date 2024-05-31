@@ -1,6 +1,6 @@
 .navigation {
   position: absolute;
-  top: 65px;
+  top: 64px;
   width: 100%;
   left: 0;
   background-color: $base-color-white;
@@ -19,6 +19,8 @@
   @media (min-width: $desktop-width) {
     z-index: 1;
     background-color: transparent;
+    display: flex;
+    align-items: flex-end;
   }
 }
 
@@ -40,5 +42,6 @@
 
   @media (min-width: $desktop-width) {
     gap: 26px 33px;
+    max-width: 550px;
   }
 }

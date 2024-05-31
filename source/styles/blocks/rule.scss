@@ -17,6 +17,7 @@
   font-weight: 400;
   line-height: 40px;
   margin: 0;
+  overflow-wrap: anywhere;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
@@ -58,7 +59,7 @@
   font-weight: 400;
   line-height: 18px;
   color: $base-color-grey;
-  overflow: hidden;
+  overflow-wrap: anywhere;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
