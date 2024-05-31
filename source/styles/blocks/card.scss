@@ -7,6 +7,7 @@
   padding-right: 64px;
   display: block;
   color: $base-color-grey;
+  overflow-wrap: anywhere;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
@@ -22,6 +23,7 @@
   padding-bottom: 10px;
   width: 100%;
   text-align: center;
+  display: block;
 }
 
 .card__order-content {
@@ -154,10 +156,14 @@
   padding-bottom: 15px;
 
   @media (min-width: $tablet-width) {
-    grid-template-columns: 1fr;
-    padding: 0 40px 32px;
-    display: grid;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    padding: 0 40px 32px;
+    /* grid-template-columns: 1fr;
+    display: grid;
+   */
   }
 }
 
